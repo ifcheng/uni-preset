@@ -54,10 +54,12 @@
     "@dcloudio/vite-plugin-uni": "3.0.0-alpha-3040820220424001",
     "@types/lodash-es": "^4.17.6",
     "@types/node": "^18.7.11",
-    "eslint": "^7.31.0",
-    "eslint-config-ktsn-vue": "^2.1.0",
-    "prettier": "^2.5.1",
+    "eslint": "^8.23.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.5.1",
+    "prettier": "^2.7.1",
     "typescript": "^4.7.4",
-    "vite": "^2.9.14"
+    "vite": "^3.1.0"
   }
 }

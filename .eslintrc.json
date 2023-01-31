@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "plugin:vue/vue3-recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser"
+  },
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "no-unused-expressions": 0,
+    "no-empty": 0,
+    "no-control-regex": 0,
+    "vue/require-default-prop": 0,
+    "vue/multi-word-component-names": 1,
+    "vue/no-v-html": 0,
+    "@typescript-eslint/adjacent-overload-signatures": 2,
+    "@typescript-eslint/no-array-constructor": 2,
+    "@typescript-eslint/no-empty-interface": 2,
+    "@typescript-eslint/no-explicit-any": 1
+  }
+}
